@@ -5,7 +5,7 @@ from pade.acl.aid import AID
 from pade.misc.utility import start_loop
 
 # Main
-if __name__ == "__main__":
+""" if __name__ == "__main__":
     qtd_agentes = 2
     c = 0
     agentes = list()
@@ -17,4 +17,4 @@ if __name__ == "__main__":
         agentes.append(agente)
         c += 1000
 
-    start_loop(agentes)
+    start_loop(agentes) """
