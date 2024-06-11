@@ -1,5 +1,5 @@
 # Libs
-from classes.agente1 import Agente
+from classes.agentes import AgenteTeste
 from sys import argv
 from pade.acl.aid import AID
 from pade.misc.utility import start_loop
@@ -13,7 +13,7 @@ if __name__ == "__main__":
     for i in range(qtd_agentes):
         porta = int(argv[1]) + c
         nome_agente = 'agemte{}@localhost:{}'.format(porta, porta)
-        agente = Agente(AID(name=nome_agente))
+        agente = AgenteTeste(AID(name=nome_agente))
         agentes.append(agente)
         c += 1000
 
